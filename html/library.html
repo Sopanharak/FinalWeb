@@ -35,7 +35,7 @@
                     <div class = "h-[46px] pt-[10px] ml-[24px]">
                         <div class = "font-bold text-[20px]">Favorite Books</div>
                     </div>
-                    <div class ="h-[184px] w-[390px] overflow-x-auto flex-row flex">
+                    <div class ="h-[184px] w-[390px] overflow-x-auto flex-row flex" id = "bar">
                         <button class = "w-[167px] h-[156px] flex-col flex">
                             <div class = "w-[167px] h-[142px]">
                                 <img src="/images/Books/crime-and-punishment-270.jpg" alt="" class = "w-[75px] h-[110px] mt-[20px] ml-[46px]">
@@ -68,7 +68,7 @@
                     <div class = "h-[62px] ml-[21px]">
                         <div class = "font-bold text-[20px] pt-[19px]">Library Books</div>
                     </div>
-                    <div class = "h-[410px] w-[390px] pl-[20px] overflow-y-scroll">
+                    <div class = "h-[410px] w-[390px] pl-[20px] overflow-y-scroll" id = "bar">
                         <button class = "w-[350px] h-[110px] flex-row flex">
                             <div class = "w-[75px] h-[110px] ">
                                 <img src="/images/Books/LordOFtheRIng.jpg" alt="" class = "w-[75px] h-[110px]">
@@ -205,5 +205,9 @@
             </div>
         </div>
     </div>
+    <style>
+        #bar::-webkit-scrollbar{
+        display: none;
+    }</style>
 </body>
 </html>
